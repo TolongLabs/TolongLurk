@@ -2,7 +2,7 @@
 
 An agent skill, `lurk`, that reads public social media posts without logging in: the text, every photo, the video, and the most-liked replies. Point your coding agent at a post link and it can tell you what the post says, what is in its images and video, and what people are saying underneath.
 
-It works with any agent that loads skills from a directory (Claude Code, Codex CLI, Gemini CLI, Antigravity, OpenCode, Devin and others) and runs on any machine with Node.js 18+ or Bun. There are no accounts, cookies or browser sessions.
+It works with any agent that loads skills from a directory (Claude Code, Codex CLI, Gemini CLI, Antigravity CLI and IDE, OpenCode, Devin and others) and runs on any machine with Node.js 18+ or Bun. There are no accounts, cookies or browser sessions.
 
 ## Supported Platforms
 
@@ -37,7 +37,8 @@ git clone https://github.com/TolongLabs/TolongLurk ~/TolongLurk
 ln -s ~/TolongLurk ~/.claude/skills/lurk                 # Claude Code
 ln -s ~/TolongLurk ~/.codex/skills/lurk                  # Codex CLI
 ln -s ~/TolongLurk ~/.gemini/skills/lurk                 # Gemini CLI
-ln -s ~/TolongLurk ~/.gemini/antigravity/skills/lurk     # Antigravity
+ln -s ~/TolongLurk ~/.gemini/config/skills/lurk          # Antigravity CLI (agy)
+ln -s ~/TolongLurk ~/.gemini/antigravity/skills/lurk     # Antigravity IDE
 ln -s ~/TolongLurk ~/.config/opencode/skills/lurk        # OpenCode
 ln -s ~/TolongLurk ~/.config/devin/skills/lurk           # Devin
 ln -s ~/TolongLurk ~/.agents/skills/lurk                 # tools that read the shared ~/.agents/skills
