@@ -91,7 +91,12 @@ export function renderReplies(lookup: ReplyLookup): string {
     return `## Top Replies\nThe replies to this ${name} post could not be opened: \`${lookup.reason}\`. Do not substitute search results.`
   }
   if (lookup.replies.length === 0) return '## Top Replies\nNo readable replies.'
-  const ranking = lookup.platform === 'reddit' ? "Reddit's top-voted order" : 'most likes first'
+  const ranking =
+    lookup.platform === 'reddit'
+      ? "Reddit's top-voted order"
+      : lookup.platform === 'threads'
+        ? 'most likes first, picked from the first batch Threads shows a logged-out visitor'
+        : 'most likes first'
   const of = lookup.total === null ? '' : ` of ${lookup.total}`
   return [
     '## Top Replies',

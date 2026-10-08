@@ -27,7 +27,7 @@ function compact(value: string): string {
     .trim()
 }
 
-function capped(value: unknown, maxTextChars: number): string {
+export function capped(value: unknown, maxTextChars: number): string {
   return compact(string(value)).slice(0, maxTextChars)
 }
 

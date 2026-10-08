@@ -1,6 +1,6 @@
 import { isIP } from 'node:net'
 
-export type SocialPlatform = 'x' | 'bluesky' | 'youtube' | 'tiktok' | 'reddit' | 'instagram' | 'bilibili'
+export type SocialPlatform = 'x' | 'bluesky' | 'youtube' | 'tiktok' | 'reddit' | 'instagram' | 'bilibili' | 'threads'
 
 export interface SocialPostTarget {
   platform: SocialPlatform
@@ -19,7 +19,8 @@ const HOSTS: Record<SocialPlatform, string[]> = {
   tiktok: ['tiktok.com'],
   reddit: ['reddit.com', 'redd.it'],
   instagram: ['instagram.com'],
-  bilibili: ['bilibili.com']
+  bilibili: ['bilibili.com'],
+  threads: ['threads.com', 'threads.net']
 }
 
 function hostMatches(host: string, domain: string): boolean {
@@ -119,6 +120,15 @@ export function parseSocialPostUrl(value: string): SocialPostTarget | null {
     const [, id] = match
     const kind = url.pathname.toLowerCase().startsWith('/reel/') ? 'reel' : 'p'
     return target('instagram', id, `https://www.instagram.com/${kind}/${id}/`)
+  }
+
+  if (platform === 'threads') {
+    const short = url.pathname.match(/^\/t\/([\w-]+)\/?$/)?.[1]
+    if (short) return target('threads', short, `https://www.threads.com/t/${short}`)
+    const match = url.pathname.match(/^\/@([\w.]+)\/post\/([\w-]+)(?:\/media)?\/?$/)
+    if (!match) return null
+    const [, profile, id] = match
+    return target('threads', id, `https://www.threads.com/@${profile}/post/${id}`, profile)
   }
 
   const id = url.pathname.match(/^\/video\/(BV[\da-z]+|av\d+)\/?$/i)?.[1]

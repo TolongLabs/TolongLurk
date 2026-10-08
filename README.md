@@ -10,6 +10,7 @@ It works with any agent that loads skills from a directory (Claude Code, Codex C
 | --- | --- | --- | --- |
 | X / Twitter | FxTwitter API | FxTwitter MP4 | FxTwitter `/2/conversation`, by likes |
 | Bluesky | Public AppView API | yt-dlp | `getPostThread`, by likes |
+| Threads | The public post page, requested like a browser | The post's MP4 | Replies rendered into the post page (Threads' first batch), by likes |
 | YouTube | yt-dlp, falling back to oEmbed | Gemini by URL, or yt-dlp | YouTube Data API v3, by likes (needs `YOUTUBE_API_KEY`) |
 | TikTok | yt-dlp | yt-dlp | TikTok comment endpoint, by likes |
 | Reddit | The post's comment feed (any post) | yt-dlp (`v.redd.it`) | Comment feed, Reddit's top-voted order |
@@ -81,7 +82,7 @@ node ~/TolongLurk/dist/lurk.mjs --check
 ## Limits
 
 - **Rate limits:** Reddit and Instagram rate-limit a busy IP; requests come back refused until the limit lifts.
-- **Unofficial sources:** FxTwitter, TikTok's comment endpoint and Bilibili's reply API can change without notice.
+- **Unofficial sources:** FxTwitter, Threads' post page, TikTok's comment endpoint and Bilibili's reply API can change without notice. Threads renders a post only for a request with browser navigation headers, and logged out it shows about ten replies, not the whole thread.
 - **YouTube bot checks:** from some home IPs, YouTube blocks yt-dlp. Titles still come through oEmbed, and Gemini still watches by URL.
 - **Single posts only:** no search, timelines or full threads; that would need a logged-in session.
 

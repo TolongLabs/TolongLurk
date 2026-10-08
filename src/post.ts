@@ -2,6 +2,7 @@ import { resolveBlueskyDid } from './blueskyDid.js'
 import { parseBlueskyThread, parseFxTwitterResponse, parseYouTubeOEmbed, parseYtDlpMetadata } from './parsers.js'
 import { parseRedditFeedPost } from './redditFeed.js'
 import { BROWSER_USER_AGENT } from './replies/common.js'
+import { THREADS_PAGE_HEADERS, parseThreadsPage } from './threads.js'
 import type { SocialPost } from './types.js'
 import type { SocialPlatform, SocialPostTarget } from './urls.js'
 import { runYtDlp } from './ytDlp.js'
@@ -53,6 +54,13 @@ export async function lookupPost(target: SocialPostTarget, options: PostLookupOp
       const response = await fetcher(`https://api.fxtwitter.com/status/${target.id}`, { signal })
       if (!response.ok) return failure('x', `http_${response.status}`)
       return { status: 'found', post: parseFxTwitterResponse(await response.json(), target, maxTextChars) }
+    }
+
+    if (target.platform === 'threads') {
+      const response = await fetcher(target.canonicalUrl, { headers: THREADS_PAGE_HEADERS, signal })
+      if (!response.ok) return failure('threads', `http_${response.status}`)
+      const page = parseThreadsPage(await response.text(), target, maxTextChars)
+      return page ? { status: 'found', post: page.post } : failure('threads', 'no_post_data')
     }
 
     if (target.platform === 'bluesky') {
