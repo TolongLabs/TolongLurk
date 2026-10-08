@@ -1,0 +1,54 @@
+{
+  "code": 0,
+  "message": "0",
+  "ttl": 1,
+  "data": {
+    "page": {
+      "num": 1,
+      "size": 20,
+      "count": 236883,
+      "acount": 236883
+    },
+    "replies": [
+      {
+        "rpid": 3760801001,
+        "oid": 80433022,
+        "type": 1,
+        "like": 764505,
+        "member": {
+          "mid": "101",
+          "uname": "观众甲"
+        },
+        "content": {
+          "message": "坏消息：被骗了\n好消息：真好听"
+        }
+      },
+      {
+        "rpid": 3760801002,
+        "oid": 80433022,
+        "type": 1,
+        "like": 178932,
+        "member": {
+          "mid": "102",
+          "uname": "观众乙"
+        },
+        "content": {
+          "message": "第一次听到是在车载电台上"
+        }
+      },
+      {
+        "rpid": 3760801003,
+        "oid": 80433022,
+        "type": 1,
+        "like": 50000,
+        "member": {
+          "mid": "103",
+          "uname": "观众丙"
+        },
+        "content": {
+          "message": "经典永不过时"
+        }
+      }
+    ]
+  }
+}

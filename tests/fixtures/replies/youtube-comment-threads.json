@@ -1,0 +1,186 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "nextPageToken": "QURTSl9sample",
+  "pageInfo": {
+    "totalResults": 8,
+    "resultsPerPage": 8
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "id": "Ugx1",
+      "snippet": {
+        "channelId": "UC4QobU6STFB0P71PMvOGN5A",
+        "videoId": "jNQXAC9IVRw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "id": "Ugx1",
+          "snippet": {
+            "authorDisplayName": "@viewerA",
+            "textDisplay": "the first video ever, still here",
+            "textOriginal": "the first video ever, still here",
+            "likeCount": 4853444,
+            "publishedAt": "2026-01-01T00:00:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "id": "Ugx2",
+      "snippet": {
+        "channelId": "UC4QobU6STFB0P71PMvOGN5A",
+        "videoId": "jNQXAC9IVRw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "id": "Ugx2",
+          "snippet": {
+            "authorDisplayName": "@viewerB",
+            "textDisplay": "to everyone reading this: have a great day",
+            "textOriginal": "to everyone reading this: have a great day",
+            "likeCount": 249104,
+            "publishedAt": "2026-01-01T00:00:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "id": "Ugx3",
+      "snippet": {
+        "channelId": "UC4QobU6STFB0P71PMvOGN5A",
+        "videoId": "jNQXAC9IVRw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "id": "Ugx3",
+          "snippet": {
+            "authorDisplayName": "@viewerC",
+            "textDisplay": "the elephants have really long trunks",
+            "textOriginal": "the elephants have really long trunks",
+            "likeCount": 294098,
+            "publishedAt": "2026-01-01T00:00:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "id": "Ugx4",
+      "snippet": {
+        "channelId": "UC4QobU6STFB0P71PMvOGN5A",
+        "videoId": "jNQXAC9IVRw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "id": "Ugx4",
+          "snippet": {
+            "authorDisplayName": "@viewerD",
+            "textDisplay": "",
+            "textOriginal": "",
+            "likeCount": 99999999,
+            "publishedAt": "2026-01-01T00:00:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "id": "Ugx5",
+      "snippet": {
+        "channelId": "UC4QobU6STFB0P71PMvOGN5A",
+        "videoId": "jNQXAC9IVRw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "id": "Ugx5",
+          "snippet": {
+            "authorDisplayName": "@viewerE",
+            "textDisplay": "history",
+            "textOriginal": "history",
+            "likeCount": 1918,
+            "publishedAt": "2026-01-01T00:00:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "id": "Ugx6",
+      "snippet": {
+        "channelId": "UC4QobU6STFB0P71PMvOGN5A",
+        "videoId": "jNQXAC9IVRw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "id": "Ugx6",
+          "snippet": {
+            "authorDisplayName": "@viewerF",
+            "textDisplay": "who else is here in 2026",
+            "textOriginal": "who else is here in 2026",
+            "likeCount": 114857,
+            "publishedAt": "2026-01-01T00:00:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "id": "Ugx7",
+      "snippet": {
+        "channelId": "UC4QobU6STFB0P71PMvOGN5A",
+        "videoId": "jNQXAC9IVRw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "id": "Ugx7",
+          "snippet": {
+            "authorDisplayName": "@viewerG",
+            "textDisplay": "zoo trip core memory",
+            "textOriginal": "zoo trip core memory",
+            "likeCount": 38597,
+            "publishedAt": "2026-01-01T00:00:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "id": "Ugx8",
+      "snippet": {
+        "channelId": "UC4QobU6STFB0P71PMvOGN5A",
+        "videoId": "jNQXAC9IVRw",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "id": "Ugx8",
+          "snippet": {
+            "authorDisplayName": "@viewerH",
+            "textDisplay": "cool",
+            "textOriginal": "cool",
+            "likeCount": 33,
+            "publishedAt": "2026-01-01T00:00:00Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "thread": {
+    "post": {
+      "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3mk4lzkrnk22d",
+      "cid": "bafyreid5u4ws6bv7o3wtg6oaimh2a7kk33fvrpjubyboiywp4vvk6ci32q",
+      "author": {
+        "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+        "handle": "bsky.app",
+        "displayName": "Bluesky"
+      },
+      "record": {
+        "createdAt": "2026-04-22T23:00:21.312Z",
+        "text": "Posts with videos now have improved quality.",
+        "embed": {
+          "$type": "app.bsky.embed.video",
+          "video": {
+            "$type": "blob",
+            "ref": {
+              "$link": "bafkreifhuv36ji7vcq3tmdjltceyrfaat6vdccn2pklxf7j7dgsobdlgbm"
+            },
+            "mimeType": "video/mp4",
+            "size": 956983
+          }
+        }
+      },
+      "embed": {
+        "$type": "app.bsky.embed.video#view",
+        "playlist": "https://video.bsky.app/watch/did%3Aplc%3Az72i7hdynmk6r22z27h6tvur/bafkreifhuv36ji7vcq3tmdjltceyrfaat6vdccn2pklxf7j7dgsobdlgbm/playlist.m3u8",
+        "thumbnail": "https://video.bsky.app/watch/did%3Aplc%3Az72i7hdynmk6r22z27h6tvur/bafkreifhuv36ji7vcq3tmdjltceyrfaat6vdccn2pklxf7j7dgsobdlgbm/thumbnail.jpg"
+      },
+      "replyCount": 2106
+    }
+  }
+}

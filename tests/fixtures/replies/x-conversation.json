@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "status": {
+    "id": "2107895957933408429",
+    "text": "Claude Platform API credits are now included with Max and Team plans.",
+    "author": {
+      "screen_name": "ClaudeDevs",
+      "name": "Claude Devs"
+    },
+    "replies": 205,
+    "likes": 3465,
+    "views": 705698
+  },
+  "replies": [
+    {
+      "id": "9001",
+      "url": "https://x.com/fan_one/status/9001",
+      "text": "@ClaudeDevs credits every month is a nice touch",
+      "author": {
+        "screen_name": "fan_one",
+        "name": "Fan_One"
+      },
+      "replies": 0,
+      "reposts": 0,
+      "likes": 485,
+      "views": 36024,
+      "type": "status",
+      "replying_to": "ClaudeDevs"
+    },
+    {
+      "id": "9002",
+      "url": "https://x.com/fan_two/status/9002",
+      "text": "@ClaudeDevs does this cover the Agent SDK too?",
+      "author": {
+        "screen_name": "fan_two",
+        "name": "Fan_Two"
+      },
+      "replies": 0,
+      "reposts": 0,
+      "likes": 120,
+      "views": 9000,
+      "type": "status",
+      "replying_to": "ClaudeDevs"
+    },
+    {
+      "id": "9003",
+      "url": "https://x.com/fan_three/status/9003",
+      "text": "@ClaudeDevs @someone_else finally, my side project is saved",
+      "author": {
+        "screen_name": "fan_three",
+        "name": "Fan_Three"
+      },
+      "replies": 0,
+      "reposts": 0,
+      "likes": 120,
+      "views": 15000,
+      "type": "status",
+      "replying_to": "ClaudeDevs"
+    },
+    {
+      "id": "9004",
+      "url": "https://x.com/fan_four/status/9004",
+      "text": "@ClaudeDevs how do pooled Team credits work?",
+      "author": {
+        "screen_name": "fan_four",
+        "name": "Fan_Four"
+      },
+      "replies": 0,
+      "reposts": 0,
+      "likes": 60,
+      "views": 4000,
+      "type": "status",
+      "replying_to": "ClaudeDevs"
+    },
+    {
+      "id": "9005",
+      "url": "https://x.com/fan_five/status/9005",
+      "text": "",
+      "author": {
+        "screen_name": "fan_five",
+        "name": "Fan_Five"
+      },
+      "replies": 0,
+      "reposts": 0,
+      "likes": 30,
+      "views": 2000,
+      "type": "status",
+      "replying_to": "ClaudeDevs"
+    },
+    {
+      "id": "9006",
+      "url": "https://x.com/fan_six/status/9006",
+      "text": "@ClaudeDevs nice",
+      "author": {
+        "screen_name": "fan_six",
+        "name": "Fan_Six"
+      },
+      "replies": 0,
+      "reposts": 0,
+      "likes": 12,
+      "views": 800,
+      "type": "status",
+      "replying_to": "ClaudeDevs"
+    },
+    {
+      "id": "9007",
+      "url": "https://x.com/fan_seven/status/9007",
+      "text": "@ClaudeDevs first",
+      "author": {
+        "screen_name": "fan_seven",
+        "name": "Fan_Seven"
+      },
+      "replies": 0,
+      "reposts": 0,
+      "likes": 5,
+      "views": 300,
+      "type": "status",
+      "replying_to": "ClaudeDevs"
+    }
+  ],
+  "cursor": {
+    "bottom": "DAACCgACGsample"
+  },
+  "author": {
+    "screen_name": "ClaudeDevs"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "title": "That small heart attack.",
+  "description": "A short Reddit video.",
+  "duration": 12,
+  "thumbnail": "https://preview.redd.it/example.jpg",
+  "comment_count": 42,
+  "uploader": "Antw87",
+  "channel_id": "videos",
+  "formats": [
+    {
+      "url": "https://v.redd.it/zv89llsvexdz/HLS_AUDIO_64_K_v4.m3u8",
+      "ext": "mp4",
+      "protocol": "m3u8_native",
+      "vcodec": "none",
+      "acodec": "mp4a.40.2",
+      "tbr": 64
+    },
+    {
+      "url": "https://v.redd.it/zv89llsvexdz/audio",
+      "ext": "m4a",
+      "protocol": "https",
+      "vcodec": "none",
+      "acodec": "mp4a.40.2",
+      "tbr": 131.111
+    },
+    {
+      "url": "https://v.redd.it/zv89llsvexdz/DASH_600_K",
+      "ext": "mp4",
+      "protocol": "https",
+      "vcodec": "avc1.4d401e",
+      "acodec": "none",
+      "tbr": 609.915,
+      "filesize": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "*/*"
+      }
+    },
+    {
+      "url": "https://v.redd.it/zv89llsvexdz/DASH_1_2_M",
+      "ext": "mp4",
+      "protocol": "https",
+      "vcodec": "avc1.4d401e",
+      "acodec": "none",
+      "tbr": 1208.727,
+      "filesize": null
+    },
+    {
+      "url": "https://v.redd.it/zv89llsvexdz/DASH_2_4_M",
+      "ext": "mp4",
+      "protocol": "https",
+      "vcodec": "h264",
+      "acodec": "none",
+      "tbr": null,
+      "filesize_approx": null
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "Cabc123xyz",
+  "title": "Video by sample_account",
+  "uploader": "sample_account",
+  "comment_count": 654,
+  "comments": [
+    {
+      "id": "1",
+      "parent": "root",
+      "author": "fan_a",
+      "text": "so pretty",
+      "like_count": 12
+    },
+    {
+      "id": "2",
+      "parent": "root",
+      "author": "fan_b",
+      "text": "",
+      "like_count": 99
+    },
+    {
+      "id": "3",
+      "parent": "root",
+      "author": "fan_c",
+      "text": "where is this?",
+      "like_count": 40
+    },
+    {
+      "id": "4",
+      "parent": "3",
+      "author": "sample_account",
+      "text": "Kyoto!",
+      "like_count": 500
+    },
+    {
+      "id": "5",
+      "parent": "root",
+      "author": "fan_d",
+      "text": "wow",
+      "like_count": null
+    },
+    {
+      "id": "6",
+      "parent": "root",
+      "author": "fan_e",
+      "text": "saving this for my trip",
+      "like_count": 7
+    }
+  ]
+}

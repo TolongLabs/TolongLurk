@@ -1,0 +1,75 @@
+{
+  "status_code": 0,
+  "status_msg": "",
+  "total": 6,
+  "has_more": 0,
+  "cursor": 6,
+  "comments": [
+    {
+      "cid": "7001",
+      "text": "first!",
+      "digg_count": 0,
+      "reply_comment_total": 0,
+      "create_time": 1700000001,
+      "user": {
+        "unique_id": "collector_a",
+        "nickname": "COLLECTOR_A"
+      }
+    },
+    {
+      "cid": "7002",
+      "text": "great pull",
+      "digg_count": 15,
+      "reply_comment_total": 0,
+      "create_time": 1700000002,
+      "user": {
+        "unique_id": "collector_b",
+        "nickname": "COLLECTOR_B"
+      }
+    },
+    {
+      "cid": "7003",
+      "text": "nice",
+      "digg_count": 3,
+      "reply_comment_total": 0,
+      "create_time": 1700000003,
+      "user": {
+        "unique_id": "collector_c",
+        "nickname": "COLLECTOR_C"
+      }
+    },
+    {
+      "cid": "7004",
+      "text": "which set is this",
+      "digg_count": 15,
+      "reply_comment_total": 0,
+      "create_time": 1700000004,
+      "user": {
+        "unique_id": "collector_d",
+        "nickname": "COLLECTOR_D"
+      }
+    },
+    {
+      "cid": "7005",
+      "text": "",
+      "digg_count": 0,
+      "reply_comment_total": 0,
+      "create_time": 1700000005,
+      "user": {
+        "unique_id": "collector_e",
+        "nickname": "COLLECTOR_E"
+      }
+    },
+    {
+      "cid": "7006",
+      "text": "lucky",
+      "digg_count": 8,
+      "reply_comment_total": 0,
+      "create_time": 1700000006,
+      "user": {
+        "unique_id": "collector_f",
+        "nickname": "COLLECTOR_F"
+      }
+    }
+  ]
+}

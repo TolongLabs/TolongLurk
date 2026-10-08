@@ -1,0 +1,185 @@
+{
+  "thread": {
+    "$type": "app.bsky.feed.defs#threadViewPost",
+    "post": {
+      "uri": "at://did:plc:ewvi7nxzyoun6zhxrhs64oiz/app.bsky.feed.post/3mx7uc3l6i22k",
+      "author": {
+        "did": "did:plc:ewvi7nxzyoun6zhxrhs64oiz",
+        "handle": "atproto.com",
+        "displayName": "AT Protocol Developers"
+      },
+      "record": {
+        "$type": "app.bsky.feed.post",
+        "text": "We've added transcripts to Off Protocol.",
+        "createdAt": "2026-10-06T00:00:00.000Z"
+      },
+      "replyCount": 9,
+      "likeCount": 51
+    },
+    "replies": [
+      {
+        "$type": "app.bsky.feed.defs#threadViewPost",
+        "post": {
+          "uri": "at://did:plc:fan1/app.bsky.feed.post/3fan1",
+          "cid": "bafyfan1",
+          "author": {
+            "did": "did:plc:fan1",
+            "handle": "fan1.bsky.social",
+            "displayName": "Fan1"
+          },
+          "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2026-10-07T06:55:37.996Z",
+            "langs": ["en"],
+            "text": "transcripts are great for search"
+          },
+          "replyCount": 0,
+          "repostCount": 0,
+          "likeCount": 3,
+          "quoteCount": 0,
+          "indexedAt": "2026-10-07T06:55:38.457Z",
+          "labels": []
+        },
+        "threadContext": {}
+      },
+      {
+        "$type": "app.bsky.feed.defs#threadViewPost",
+        "post": {
+          "uri": "at://did:plc:fan2/app.bsky.feed.post/3fan2",
+          "cid": "bafyfan2",
+          "author": {
+            "did": "did:plc:fan2",
+            "handle": "fan2.bsky.social",
+            "displayName": "Fan2"
+          },
+          "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2026-10-07T06:55:37.996Z",
+            "langs": ["en"],
+            "text": "this makes the episodes so much easier to skim"
+          },
+          "replyCount": 0,
+          "repostCount": 0,
+          "likeCount": 40,
+          "quoteCount": 0,
+          "indexedAt": "2026-10-07T06:55:38.457Z",
+          "labels": []
+        },
+        "threadContext": {}
+      },
+      {
+        "$type": "app.bsky.feed.defs#threadViewPost",
+        "post": {
+          "uri": "at://did:plc:fan3/app.bsky.feed.post/3fan3",
+          "cid": "bafyfan3",
+          "author": {
+            "did": "did:plc:fan3",
+            "handle": "fan3.bsky.social",
+            "displayName": "Fan3"
+          },
+          "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2026-10-07T06:55:37.996Z",
+            "langs": ["en"],
+            "text": "  "
+          },
+          "replyCount": 0,
+          "repostCount": 0,
+          "likeCount": 0,
+          "quoteCount": 0,
+          "indexedAt": "2026-10-07T06:55:38.457Z",
+          "labels": []
+        },
+        "threadContext": {}
+      },
+      {
+        "$type": "app.bsky.feed.defs#threadViewPost",
+        "post": {
+          "uri": "at://did:plc:fan4/app.bsky.feed.post/3fan4",
+          "cid": "bafyfan4",
+          "author": {
+            "did": "did:plc:fan4",
+            "handle": "fan4.bsky.social",
+            "displayName": "Fan4"
+          },
+          "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2026-10-07T06:55:37.996Z",
+            "langs": ["en"],
+            "text": "which local model did you use?"
+          },
+          "replyCount": 0,
+          "repostCount": 0,
+          "likeCount": 12,
+          "quoteCount": 0,
+          "indexedAt": "2026-10-07T06:55:38.457Z",
+          "labels": []
+        },
+        "threadContext": {}
+      },
+      {
+        "$type": "app.bsky.feed.defs#threadViewPost",
+        "post": {
+          "uri": "at://did:plc:fan5/app.bsky.feed.post/3fan5",
+          "cid": "bafyfan5",
+          "author": {
+            "did": "did:plc:fan5",
+            "handle": "fan5.bsky.social",
+            "displayName": "Fan5"
+          },
+          "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2026-10-07T06:55:37.996Z",
+            "langs": ["en"],
+            "text": "accessibility win"
+          },
+          "replyCount": 0,
+          "repostCount": 0,
+          "likeCount": 40,
+          "quoteCount": 0,
+          "indexedAt": "2026-10-07T06:55:38.457Z",
+          "labels": []
+        },
+        "threadContext": {}
+      },
+      {
+        "$type": "app.bsky.feed.defs#notFoundPost",
+        "uri": "at://did:plc:gone/app.bsky.feed.post/3gone",
+        "notFound": true
+      },
+      {
+        "$type": "app.bsky.feed.defs#blockedPost",
+        "uri": "at://did:plc:blk/app.bsky.feed.post/3blk",
+        "blocked": true,
+        "author": {
+          "did": "did:plc:blk"
+        }
+      },
+      {
+        "$type": "app.bsky.feed.defs#threadViewPost",
+        "post": {
+          "uri": "at://did:plc:fan6/app.bsky.feed.post/3fan6",
+          "cid": "bafyfan6",
+          "author": {
+            "did": "did:plc:fan6",
+            "handle": "fan6.bsky.social",
+            "displayName": "Fan6"
+          },
+          "record": {
+            "$type": "app.bsky.feed.post",
+            "createdAt": "2026-10-07T06:55:37.996Z",
+            "langs": ["en"],
+            "text": "typo in episode 3 at 12:40"
+          },
+          "replyCount": 0,
+          "repostCount": 0,
+          "likeCount": 7,
+          "quoteCount": 0,
+          "indexedAt": "2026-10-07T06:55:38.457Z",
+          "labels": []
+        },
+        "threadContext": {}
+      }
+    ]
+  }
+}

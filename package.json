@@ -1,0 +1,22 @@
+{
+  "name": "tolong-lurk",
+  "version": "0.1.0",
+  "description": "Agent skill that reads public social media posts, their images, videos and top replies without logging in.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "bin": { "lurk": "dist/lurk.mjs" },
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "bun build src/cli.ts --target=node --format=esm --outfile dist/lurk.mjs --banner '#!/usr/bin/env node'",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "check": "bun run typecheck && bun run lint && bun test && bun run build && git diff --exit-code dist"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/bun": "^1.2.0",
+    "typescript": "^5.9.0"
+  }
+}

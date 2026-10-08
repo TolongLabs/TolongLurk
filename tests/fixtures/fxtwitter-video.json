@@ -1,0 +1,60 @@
+{
+  "tweet": {
+    "author": {
+      "screen_name": "PassengersMovie",
+      "name": "Passengers Movie"
+    },
+    "created_at": "Mon Jan 16 16:05:03 +0000 2017",
+    "text": "Plan your escape aboard the Starship Avalon.",
+    "replies": 76,
+    "media": {
+      "videos": [
+        {
+          "duration": 15.474,
+          "url": "https://video.twimg.com/amplify_video/820082508054179840/vid/720x720/K8BEWmSeNsrQI_pA.mp4",
+          "thumbnail_url": "https://pbs.twimg.com/media/C2GF3vxUQAArTD0.jpg",
+          "format": "video/mp4",
+          "formats": [
+            {
+              "url": "https://video.twimg.com/amplify_video/820082508054179840/vid/240x240/b6ImBrQddohap5-6.mp4",
+              "bitrate": 320000,
+              "container": "mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/820082508054179840/vid/480x480/JypbCoP9FFOf1IgE.mp4",
+              "bitrate": 832000,
+              "container": "mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/820082508054179840/vid/720x720/K8BEWmSeNsrQI_pA.mp4",
+              "bitrate": 1280000,
+              "container": "mp4"
+            }
+          ],
+          "variants": [
+            {
+              "url": "https://video.twimg.com/amplify_video/820082508054179840/pl/8gxYaoktBTgRLruI.m3u8",
+              "bitrate": 0,
+              "content_type": "application/x-mpegURL"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/820082508054179840/vid/240x240/b6ImBrQddohap5-6.mp4",
+              "bitrate": 320000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/820082508054179840/vid/480x480/JypbCoP9FFOf1IgE.mp4",
+              "bitrate": 832000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/820082508054179840/vid/720x720/K8BEWmSeNsrQI_pA.mp4",
+              "bitrate": 1280000,
+              "content_type": "video/mp4"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
